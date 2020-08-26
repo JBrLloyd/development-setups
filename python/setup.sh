@@ -24,6 +24,8 @@ INSTALL_CMD = PKMGR + " install " + PACKAGES
 eval "$UPDATE_CMD"
 eval "$INSTALL_CMD"
 
+python -m pip install --upgrade pip
+
 PIP_INSTALL_PKS = "pip3 install virtualenv virtualenvwrapper"
 eval "$PIP_INSTALL_PKS"
 

@@ -1,0 +1,7 @@
+# Install ML related python packages through pip
+numpy
+scipy
+pandas
+matplotlib
+tensorflow
+keras
